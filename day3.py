@@ -10,6 +10,9 @@ do = "do()"
 dont = "don't()"
 
 pattern = r"mul\((\d+),(\d+)\)"
+toggledPattern = r"mul\((\d+),(\d+)\)|(do\(\))|(don't\(\))"
+
+enabled = True
 
 enabled = True
 
