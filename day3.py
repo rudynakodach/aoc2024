@@ -13,6 +13,8 @@ pattern = r"mul\((\d+),(\d+)\)"
 
 enabled = True
 
+enabled = True
+
 for line in puzzleInput:
     #part 1
     matches = list(map(lambda k: (int(k[0]), int(k[1])), re.findall(pattern, line)))
